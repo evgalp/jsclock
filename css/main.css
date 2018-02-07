@@ -1,0 +1,29 @@
+#container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  color: #ececec;
+  transition: all 0.1s ease;
+}
+
+#clock {
+  height: 50px;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+#clock .number{
+
+}
+
+#clock .column{
+  vertical-align: text-top;
+}
+
+#hex{
+  margin-top: 50px;
+  font-size: 25px;
+}
